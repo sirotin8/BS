@@ -1,0 +1,13 @@
+--- cluster-reuters.sh_bck	2014-08-28 13:39:51.071578763 +0200
++++ cluster-reuters.sh	2014-08-28 13:40:09.407578030 +0200
+@@ -97,8 +97,8 @@
+         $HADOOP dfs -rmr ${WORK_DIR}/reuters-sgm
+         $HADOOP dfs -rmr ${WORK_DIR}/reuters-out
+         set -e
+-        $HADOOP dfs -put ${WORK_DIR}/reuters-sgm ${WORK_DIR}/reuters-sgm
+-        $HADOOP dfs -put ${WORK_DIR}/reuters-out ${WORK_DIR}/reuters-out
++        $HADOOP dfs -put -p ${WORK_DIR}/reuters-sgm ${WORK_DIR}/reuters-sgm
++        $HADOOP dfs -put -p ${WORK_DIR}/reuters-out ${WORK_DIR}/reuters-out
+     fi
+   fi
+   echo "Converting to Sequence Files from Directory"

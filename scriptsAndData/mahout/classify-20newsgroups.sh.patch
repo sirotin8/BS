@@ -1,0 +1,11 @@
+--- classify-20newsgroups.sh_bck	2014-08-23 13:56:33.340812901 +0200
++++ classify-20newsgroups.sh	2014-08-23 14:05:16.468791983 +0200
+@@ -97,7 +97,7 @@
+     set +e
+     $HADOOP dfs -rmr ${WORK_DIR}/20news-all
+     set -e
+-    $HADOOP dfs -put ${WORK_DIR}/20news-all ${WORK_DIR}/20news-all
++    $HADOOP dfs -put -p ${WORK_DIR}/20news-all ${WORK_DIR}/20news-all
+   fi
+ 
+   echo "Creating sequence files from 20newsgroups data"

@@ -1,0 +1,3 @@
+Flink
+Flink extends Yarn with more SQL like functions. To use it the Flink application master must be started as a endless job on a Hadoop system. After this you can connect directly to this job and use this framework in the same way you are using MapReduce.
+

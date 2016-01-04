@@ -1,0 +1,3 @@
+Yarn
+Yarn stands for Yet Another Resource Negotiator. It is responsible for distribute programs across networks. The programs can access the HDFS storage. The data can be in any kind of format. Even MySQL-data like from myisam can be read, if the right InputFormat is used.
+

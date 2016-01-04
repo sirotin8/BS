@@ -1,0 +1,3 @@
+/storage_engine
+oset storage_engine = ndbcluster;
+:wq

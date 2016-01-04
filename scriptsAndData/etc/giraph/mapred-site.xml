@@ -1,0 +1,18 @@
+<configuration>
+
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+
+<property>
+<name>mapred.tasktracker.map.tasks.maximum</name>
+<value>4</value>
+</property>
+
+<property>
+<name>mapred.map.tasks</name>
+<value>4</value>
+</property>
+
+</configuration>

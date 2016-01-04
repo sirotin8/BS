@@ -1,0 +1,4 @@
+/storage_engine
+oset storage_engine = ndbcluster;
+:%s/);/)TABLESPACE ts_1 STORAGE DISK;/g
+:wq

@@ -1,0 +1,5 @@
+HADOOP
+Hadoop is a data computation framework.
+It distributes data and programs over hosts and manages their safety storage and life-time.
+Hadoop consists of HDFS and Yarn
+
