@@ -27,7 +27,7 @@ Select answer.Id, question.Body, answer.Body
 from Post question inner join Post answer
 on question.AcceptedAnswerId = answer.Id
 
-Id           Body              Body
+Id_____Body__________________Body
 
 "42" | "How's the weather?" | "Great!"
 
